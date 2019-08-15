@@ -1,0 +1,9 @@
+*.egg-info
+*.pyc
+/.tox/
+/MANIFEST
+/.coverage
+/data/
+/build/
+*.ipynb_checkpoints/
+cycle-slip-correction/
