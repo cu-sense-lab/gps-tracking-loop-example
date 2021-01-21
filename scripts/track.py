@@ -5,10 +5,10 @@ import os
 import numpy
 from numpy import zeros, arange, nan, real, imag, pi, sin, arctan, arctan2, angle, exp, sqrt, diff, pad, std
 from scipy.io import loadmat, savemat
-from gps_l1ca_utils import generate_GPS_L1CA_code
-from acquisition_utils import coarse_acquire
-from utils import PSKSignal, sample_sequence
-from tracking_utils import compute_correlations
+from utils.gps_l1ca_utils import generate_GPS_L1CA_code
+from utils.acquisition_utils import coarse_acquire
+from utils.utils import PSKSignal, sample_sequence
+from utils.tracking_utils import compute_correlations
 
 
 # Choose IF data file and appropriate data parameters
